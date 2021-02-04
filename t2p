@@ -1,0 +1,4 @@
+#! /bin/bash
+for filename in  $(exa); do
+    tiff2pdf -j $filename -o pdf/$filename.pdf
+done
